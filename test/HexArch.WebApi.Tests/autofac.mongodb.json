@@ -1,0 +1,22 @@
+﻿{
+  "defaultAssembly": "HexArch.Infrastructure",
+  "modules": [
+    {
+      "type": "HexArch.Infrastructure.Modules.WebApiModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "HexArch.Infrastructure.Modules.ApplicationModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "HexArch.Infrastructure.MongoDataAccess.Module",
+      "properties": {
+        "ConnectionString": "mongodb://10.0.75.1:27017",
+        "DatabaseName": "HexArch-V01"
+      }
+    }
+  ]
+}

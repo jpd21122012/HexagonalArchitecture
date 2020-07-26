@@ -1,0 +1,18 @@
+﻿{
+  "defaultAssembly": "HexArch.Infrastructure",
+  "modules": [
+    {
+      "type": "HexArch.Infrastructure.Modules.WebApiModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "HexArch.Infrastructure.Modules.ApplicationModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "HexArch.Infrastructure.InMemoryDataAccess.Module"
+    }
+  ]
+}
